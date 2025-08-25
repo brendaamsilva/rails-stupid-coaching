@@ -1,0 +1,25 @@
+<h1> Stupid Coaching </h1>
+
+<div class = class="px-4 py-5 my-5 text-center" bis_skin_checked="1">
+<figure>
+  <blockquote class="blockquote">
+      <p><%= @input %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+
+<figure class="text-end">
+  <blockquote class="blockquote">
+      <p><%= @response %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+
+
+<button type="button" class="btn btn-primary btn-lg px-4 gap-3" <%= link_to "Ask another question", "/ask" %></button>
+
+</div>
